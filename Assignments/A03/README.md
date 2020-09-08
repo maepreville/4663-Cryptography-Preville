@@ -33,4 +33,4 @@ Now do the same for ciphertext_2.txt and substitute again based on frequency. Th
 - Practicalcryptography.com: 
   - http://practicalcryptography.com/ciphers/simple-substitution-cipher/
 
-I used the sources to give me a better understanding of substitution ciphers.
+I used these sources to give me a better understanding of substitution ciphers.
