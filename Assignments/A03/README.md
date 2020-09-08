@@ -12,8 +12,8 @@ Second: Do the same for ciphertext_2.txt and substitute again based on frequency
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [ciphertext_1.txt](./ciphertext_1.txt)   | Cipher 1 text.                               |
-|   2   | [ciphertext_2.txt](./ciphertext_2.txt)   | Cipher 2 text.                               |
+|   1   | [ciphertext_1.txt](./ciphertext_1.txt)   | Number of times letters occur in cipher 1    |
+|   2   | [ciphertext_2.txt](./ciphertext_2.txt)   | Number of times letters occur in cipher 2    |
 |   3   | [frequency.py](./frequency.py)           | Letter frequency code.                       |
 |   4   | [substitution.py](./substitution.py)     | Substitution code.                           |
 |   5   | [decrypted_1.txt](./decrypted_1.txt)     | Decrypted 1 text.                            |
