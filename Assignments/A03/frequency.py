@@ -42,12 +42,8 @@ if __name__=='__main__':
     f = requests.get(url)
     text = f.text
 
-
     print("Calculating frequency...")
     F = Frequency()
-
     F.count(text)
-
     F.print()
-
     print(F.getNth(2))
