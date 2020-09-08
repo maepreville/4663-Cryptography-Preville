@@ -36,9 +36,9 @@ class Frequency():
         return None
 
 if __name__=='__main__':
-    url = "https://www.gutenberg.org/files/2701/2701-0.txt"
-    #url = "https://www.gutenberg.org/files/2600/2600-0.txt"
-    print("Downloading book ...")
+    url = "https://github.com/rugbyprof/4663-Cryptography/edit/master/Assignments/A03/ciphertext_1.txt"
+    #url = "https://github.com/rugbyprof/4663-Cryptography/edit/master/Assignments/A03/ciphertext_2.txt"
+    print("Downloading text ...")
     f = requests.get(url)
     text = f.text
 
