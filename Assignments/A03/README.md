@@ -22,7 +22,7 @@ Second: Do the same for ciphertext_2.txt and substitute again based on frequency
 
 ### Instructions
 
-- This project was compiled using C++ 17
+- Python was used for this project.
 
 ### Sources
 
