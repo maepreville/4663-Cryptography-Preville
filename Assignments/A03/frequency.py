@@ -52,6 +52,7 @@ class Frequency():
 if __name__=='__main__':
   
   f = open("ciphertext1.txt","r")
+  #f = open("ciphertext2.txt","r")  
  
   text = f.read()
   
