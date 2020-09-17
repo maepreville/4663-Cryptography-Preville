@@ -31,7 +31,7 @@ Second: Do the same for ciphertext_2.txt and substitute again based on frequency
 
 #### Cipher 2
 
-
+<img src="https://github.com/maepreville/4663-Cryptography-Preville/issues/1"  width=387 height=387/>
 
 ### Sources
 
