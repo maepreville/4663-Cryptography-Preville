@@ -15,14 +15,23 @@ Second: Do the same for ciphertext_2.txt and substitute again based on frequency
 |   1   | [cipher1frequency.txt](./cipher1frequency.txt)   | Number of times letters occur in cipher 1    |
 |   2   | [cipher2frequency.txt](./cipher2frequency.txt)   | Number of times letters occur in cipher 2    |
 |   3   | [frequency.py](./frequency.py)           | Letter frequency code.                       |
-|   4   | [substitution.py](./substitution.py)     | Substitution code.                           |
-|   5   | [decrypted_1.txt](./decrypted_1.txt)     | Decrypted 1 text.                            |
-|   6   | [decrypted_2.txt](./decrypted_2.txt)     | Decrypted 2 text.                            |
+|   4   | [decrypted_1.txt](./decrypted_1.txt)     | Decrypted 1 text.                            |
+|   5   | [decrypted_2.txt](./decrypted_2.txt)     | Decrypted 2 text.                            |
 
 
 ### Instructions
 
 - Python was used for this project.
+
+### Working
+
+#### Cipher 1
+
+
+
+#### Cipher 2
+
+
 
 ### Sources
 
