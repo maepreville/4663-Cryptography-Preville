@@ -32,7 +32,7 @@ Second: Do the same for ciphertext_2.txt and substitute again based on frequency
 
 #### Cipher 2
 
-<img src="https://github.com/maepreville/4663-Cryptography-Preville/issues/1"  width=387 height=387/>
+<img src="https://user-images.githubusercontent.com/54781760/93485756-08531900-f8c9-11ea-9c51-99e7be0d9012.jpg"  width=387 height=387/>
 
 ### Sources
 
