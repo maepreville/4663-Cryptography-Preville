@@ -20,7 +20,7 @@ All on you! All the programming tools you need are in this repo.
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [adfgx.py](./adfgx.py)   | Number of times letters occur in cipher 1    |
+|   1   | [adfgx.py](./adfgx.py)   | Starter code given   |
 
 
 ### Instructions
