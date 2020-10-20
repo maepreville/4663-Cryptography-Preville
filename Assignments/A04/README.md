@@ -20,11 +20,7 @@ All on you! All the programming tools you need are in this repo.
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [cipher1frequency.txt](./cipher1frequency.txt)   | Number of times letters occur in cipher 1    |
-|   2   | [cipher2frequency.txt](./cipher2frequency.txt)   | Number of times letters occur in cipher 2    |
-|   3   | [frequency.py](./frequency.py)           | Letter frequency code.                       |
-|   4   | [decrypted_1.txt](./decrypted_1.txt)     | Decrypted 1 text.                            |
-|   5   | [decrypted_2.txt](./decrypted_2.txt)     | Decrypted 2 text.                            |
+|   1   | [adfgx.py](./adfgx.py)   | Number of times letters occur in cipher 1    |
 
 
 ### Instructions
@@ -32,11 +28,4 @@ All on you! All the programming tools you need are in this repo.
 - Python was used for this project.
 
 ### Sources
-
-- Counton.org
-  - http://www.counton.org/explorer/codebreaking/frequency-analysis.php
-- Practicalcryptography.com: 
-  - http://practicalcryptography.com/ciphers/simple-substitution-cipher/
-
-I used these sources to give me a better understanding of substitution ciphers.
 
