@@ -3,14 +3,9 @@
 ### Description:
 Your assignment is to do a lit review of methods to find prime numbers in any and all of the above categories. There are plenty of algorithms to choose from, however, try and find algorithms other than obvious ones. That implies you need to dig a little bit and not turn in the first / easily locatable algorithms when you start searching. You should list a minimum of 7 algorithms with short descriptions of each including the category in which they exist. You need to find at least 2 deterministic algorithms, and the other 5 can be in both of the other two categories.
 
-### Files
 
-|   #   | File                       | Description                                                |
-| :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [adfgx.py](./adfgx.py)   | Starter code given   |
-
-1.	Certification:
-#Pratt certificates
+### 1. Certification:
+Pratt certificates
 The Pratt certificate is a primality certificate due to Fermat's little theorem converse. In 1975, Pratt showed that by applying Lehmer's primality heuristic recursively, it could be made a nondeterministic procedure to the factors of  . As a result, became the first to demonstrate that the resulting tree implies that prime factorization lies in the complexity class NP.
 A prime (P) can be proven when the prime factors of P-1 along with a witness w such that   but   for each prime divisor   of   is displayed. These primes (q) are then proven to be prime in the same way, however 2 is assumed to be prime without having to be proof of it.
 
@@ -21,7 +16,7 @@ A recursive primality certificate for a prime. The certificate consists of a lis
 2. A prime with, such that for some other number  and with, is the identity on the curve, but   is not the identity. This guarantees primality of   by a theorem of Goldwasser and Kilian (1986).
 3. Each   has its recursive certificate following it. So if the smallest   is known to be prime, all the numbers are certified prime up the chain.
 
-2.	Compositeness:
+### 2. Compositeness:
 #Fermat Primality Test
 The Fermat primality test is a primality test, giving a way to test if a number is a prime number, using Fermat's little theorem and modular exponentiation.
 Fermat's Little Theorem states that if a is relatively prime to a prime number p, then ap−1≡1modp.
@@ -44,7 +39,7 @@ For each individual value of a, the Solovay–Strassen test is weaker than the M
 #Frobenius primality test
 Due to the difficulty in proving that a number is prime, the usual recourse is a pseudoprimality test. This test is generally fast and easy but it may produce an incorrect answer (with very small probability). The Frobenius test is an extension of and improvement on the Lucas test of a previous exercise. The Frobenius test is a generalization of the Lucas pseudoprime test. It is common to combine it with a Miller-Rabin pseudoprime test to just a few small bases.
 
-3.	Deterministic:
+### 3. Deterministic:
 #AKS Primality Test
 The AKS primality test was the first that can provably determine whether any given number is prime or composite within polynomial time. It does not rely on the generalized Riemann hypothesis, or any mathematical conjecture nor any field of analysis.
 The algorithm is as follows: 
@@ -57,9 +52,6 @@ Input: integer n > 1.
 if (X+a)n≠ Xn+a (mod Xr − 1,n), output composite;
 6.	Output prime.
 
-
-### Instructions
-- Python was used for this project.
 
 ### Sources
 Weisstein, Eric W. "Pratt Certificate." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/PrattCertificate.html
