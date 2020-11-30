@@ -26,15 +26,6 @@ It can be determined whether the integer is composite if the result is different
 #### Miller-Rabin and Solovay-Strassen Primality Test:
 The most commonly used pseudoprimality test is doubtless the Miller-Rabin test, even though it is known to have errors in some circumstances. 
 The Miller–Rabin primality test and Solovay–Strassen primality test are more sophisticated variants, which detect all composites (once again, this means: for every composite number n, at least 3/4 (Miller–Rabin) or 1/2 (Solovay–Strassen) of numbers a are witnesses of compositeness of n). These are also compositeness tests.
-The Miller–Rabin primality test works as follows: Given an integer n, choose some positive integer a < n. Let 2sd = n − 1, where d is odd. If
- 
-and
-  for all  
-then n is composite and a is a witness for the compositeness. Otherwise, n may or may not be prime. The Miller–Rabin test is a strong pseudoprime test (see PSW[3] page 1004).
-The Solovay–Strassen primality test uses another equality: Given an odd number n, choose some integer a < n, if
- , where   is the Jacobi symbol,
-then n is composite and a is a witness for the compositeness. Otherwise, n may or may not be prime. The Solovay–Strassen test is an Euler pseudoprime test (see PSW[3] page 1003).
-For each individual value of a, the Solovay–Strassen test is weaker than the Miller–Rabin test. For example, if n = 1905 and a = 2, then the Miller-Rabin test shows that n is composite, but the Solovay–Strassen test does not. This is because 1905 is an Euler pseudoprime base 2 but not a strong pseudoprime base 2 (this is illustrated in Figure 1 of PSW[3]).
 
 #### Frobenius Primality Test:
 Due to the difficulty in proving that a number is prime, the usual recourse is a pseudoprimality test. This test is generally fast and easy but it may produce an incorrect answer (with very small probability). The Frobenius test is an extension of and improvement on the Lucas test of a previous exercise. The Frobenius test is a generalization of the Lucas pseudoprime test. It is common to combine it with a Miller-Rabin pseudoprime test to just a few small bases.
@@ -52,6 +43,7 @@ Input: integer n > 1.
 if (X+a)n≠ Xn+a (mod Xr − 1,n), output composite;
 6.	Output prime.
 
+#### Miller Test:
 
 ### Sources
 Weisstein, Eric W. "Pratt Certificate." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/PrattCertificate.html
