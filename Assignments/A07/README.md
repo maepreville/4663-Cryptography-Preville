@@ -24,8 +24,7 @@ This primality test is known to be the simplest probabilistic primality test, an
 It can be determined whether the integer is composite if the result is different from 1, or possibly prime if the result is 1. If an−1 (modulo n) is 1 but n is not prime, then the integer is called a pseudoprime to base a. Usually, we observe that, if an−1 (modulo n) is 1 (then n is usually prime).
 
 #### Miller-Rabin and Solovay-Strassen Primality Test:
-The most commonly used pseudoprimality test is doubtless the Miller-Rabin test, even though it is known to have errors in some circumstances. 
-The Miller–Rabin primality test and Solovay–Strassen primality test are more sophisticated variants, which detect all composites (once again, this means: for every composite number n, at least 3/4 (Miller–Rabin) or 1/2 (Solovay–Strassen) of numbers a are witnesses of compositeness of n). These are also compositeness tests.
+The Miller-Rabin test is the most commonly used pseudoprimality test. However, it is known to have errors in some circumstances. The Miller–Rabin primality test and Solovay–Strassen primality test detect all composites (for every composite number n, at least 3/4 (Miller–Rabin) or 1/2 (Solovay–Strassen) of numbers a are witnesses of compositeness of n). These are also compositeness tests.
 
 #### Frobenius Primality Test:
 Due to the difficulty in proving that a number is prime, the usual recourse is a pseudoprimality test. This test is generally fast and easy but it may produce an incorrect answer (with very small probability). The Frobenius test is an extension of and improvement on the Lucas test of a previous exercise. The Frobenius test is a generalization of the Lucas pseudoprime test. It is common to combine it with a Miller-Rabin pseudoprime test to just a few small bases.
