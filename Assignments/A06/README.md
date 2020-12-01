@@ -1,4 +1,4 @@
-## A07 - Prime Factors
+## A06 - Prime Factors
 ### Mae-Jeanne Preville 
 ### Description:
 
