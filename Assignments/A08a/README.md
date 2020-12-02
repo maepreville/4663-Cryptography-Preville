@@ -8,11 +8,6 @@ A request can either ask for information (GET) or send information (POST). There
 
 ### Files
 
-|   #   | File                       | Description                                                |
-| :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [client.py](./client.py)   | Sends and receives requests from server.py   |
-|   2   | [server.py](./server.py)   | Handles requests from client.py as well as other clients  |
-
 
 ### Instructions
 
