@@ -49,7 +49,7 @@ int main()
       counter++;
     }
 
-  outfile.close();   
+	outfile.close();   
 	infile.close(); 
 	system("pause");
 	return 0;
