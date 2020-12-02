@@ -1,9 +1,9 @@
 ////////////////////////////////////////////////////////////
 // Author:       Mae-Jeanne Preville
 // Course:       Cryptography
-// Professor:		 Dr. Griffin
+// Professor:	 Dr. Griffin
 // Semester:     Fall 2020
-// Program:			 Assignment #6
+// Program:	 Assignment #6
 ///////////////////////////////////////////////////////////
 
 #include <iostream>
