@@ -17,8 +17,8 @@ int main()
   ifstream infile;
   ofstream outfile;
 
-  infile.open("MaeTestInput.txt");
-  //infile.open("MaeInput.txt");
+  //infile.open("MaeTestInput.txt");
+  infile.open("MaeInput.txt");
   outfile.open("MaeOutput.txt"); 
 
   cout << "Name: Mae-Jeanne Preville" << endl;
