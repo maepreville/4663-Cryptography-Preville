@@ -15,12 +15,15 @@ Requirements:
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [get_factors.py](./get_factors.py)   | Main program   |
+|   1   | [get_factors.cpp](./get_factors.cpp)   | Main program   |
+|   2   | [MaeInput.txt](./MaeInput.txt)   | Input file   |
+|   3   | [MaeTestInput.txt](./MaeInput.txt)   | Test input file   |
+|   4   | [MaeOutput.txt](./MaeOutput.txt)   | Output file  |
 
 
 ### Instructions
 
-- Python was used for this project.
+- C++ was used for this project.
 
 ### Sources
 
