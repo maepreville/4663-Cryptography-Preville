@@ -26,5 +26,5 @@ Requirements:
 - C++ was used for this project.
 
 ### Sources
-
+https://www.geeksforgeeks.org/c-program-to-check-prime-number/
 
