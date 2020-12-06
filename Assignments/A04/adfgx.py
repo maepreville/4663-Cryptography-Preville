@@ -1,66 +1,45 @@
-from collections import OrderedDict
-import math
+import pprint as pp
+import sys
+from build_polybius import AdfgxLookup
 
-def print_matrix(matrix,rows):
-    for k in matrix:
-        print(k,end=' ')
-    print("")
-    for k in matrix:
-        print('-',end=' ')
+#     A D F G X
+# A | p h q g m 
+# D | e a y n o 
+# F | f d x k r
+# G | c v s z w 
+# X | b u t i l
 
-    print("")
-    for r in range(rows):
-        for k in matrix:
-            if r < len(matrix[k]):
-                print(matrix[k][r],end=" ")
-            else:
-                print(" ",end=' ')
-        print("")
+# init and input my keyword
+A = AdfgxLookup('superbad')
+
+# build my lookup table 
+lookup = A.build_polybius_lookup()
+
+# print out my adfgx lookup table
+pp.pprint(lookup)
+
+# print out the actual matrix so I 
+# know I'm not insane!
+A.sanity_check()
+
+for i in "discombobulate":
+    print(lookup[i],end=" ")
+
+B = AdfgxLookup('helloworldhowareyou')
+
+# build my lookup table 
+lookup = B.build_polybius_lookup()
+
+# print out my adfgx lookup table
+pp.pprint(lookup)
+
+# print out the actual matrix I 
+# know I'm not insane!
+B.sanity_check()
+
+message = "theattackisatdawn"
+for x in message:
+    print(lookup[x],end=' ')
 
 
-
-
-key = "bugsy".upper()
-message = "DF FF AA DG GF GA DA GF DA AD FX DD GX AG XA XX DD FF AF FA XA"
-message = "XD AA AD DF XD XD DF FD GA FX XA DF XD DD DF AX GF"
-
-message = message.replace(' ','')
-
-# print(message)
-
-key_length = len(key)
-message_length = len(message)
-
-rows = math.ceil(float(message_length)/float(key_length))
-short_cols = key_length - (message_length%key_length)
-
-# print(rows)
-# print(short_cols)
-
-# print(f"{key_length} {message_length}")
-
-matrix = {}
-
-for k in key:
-    matrix[k] = []
-
-i = 0
-for m in message:
-    matrix[key[i]].append(m)
-    i += 1
-    i = i % len(key)
-
-#print(matrix)
-print_matrix(matrix,rows)
-
-temp_matrix = sorted(matrix.items())
-
-print(temp_matrix)
-
-sorted_matrix = {}
-
-for item in temp_matrix:
-    sorted_matrix[item[0]] = item[1]
-
-print_matrix(sorted_matrix,rows)
-
+print("")
