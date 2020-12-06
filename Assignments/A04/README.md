@@ -21,6 +21,9 @@ All on you! All the programming tools you need are in this repo.
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
 |   1   | [adfgx.py](./adfgx.py)   | Starter code given   |
+|   2   | [fractionate.py](./fractionate.py)   | Fractionate code given  |
+|   3   | [polybius.py](./polybius.py)   | Polybius square code given   |
+
 
 
 ### Instructions
