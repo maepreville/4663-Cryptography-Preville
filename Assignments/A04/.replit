@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 adfgx.py input_file=plaintext.txt output_file=encrypted.txt operation=Encrypt keyword1=winter keyword2=wonderlan"
+run = "python3 adfgx.py input_file=decrypted.txt output_file=encrypted.txt operation=Encrypt keyword1=winter keyword2=wonderlan"
