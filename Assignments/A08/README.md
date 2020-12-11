@@ -26,5 +26,5 @@ There is a client/server on A and a client/server on B. Notice that the clients 
 - Python was used for this project.
 
 ### Sources
-Code provided by professor.
+Starter code provided by professor.
 https://github.com/aegirhall/console-menu
