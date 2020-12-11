@@ -116,8 +116,8 @@ def getKeys(**kwargs):
     return r.text
 
 if __name__== '__main__':
-    token = '52e59d8486f6a67e1ec6c281e665e'
-    uid = '3818'
+    token = '7535feded7067c2238122f8ec4c2cf4a'
+    uid = '5501400'
 
     # r = sendMessage('3818','8020','Hey Ricky Bobby. You wanna shake n bake?',token)
     # print(r)
