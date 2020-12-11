@@ -19,8 +19,8 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
 
-TOKEN = '892db29a750c4bd0e87184c04db19237ece'
-UID = '8020'
+TOKEN = '7535feded7067c2238122f8ec4c2cf4a'
+UID = '5501400'
 API = 'http://msubackend.xyz/api/?route='
 USERS = {}
 PUBKEYS = {}
